@@ -11,7 +11,7 @@ public class ManipuladorDeContas {
 	public void criaConta(Evento evento) {
 		String tipo = evento.getSelecionadoNoRadio("tipo");
 		
-		this.conta = new Conta();
+		// this.conta = new Conta();
 		
 		if (tipo.equals("Conta Corrente")) {
 			this.conta  = new ContaCorrente();
